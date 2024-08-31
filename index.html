@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solo Traveler Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#explore">Explore</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+        </nav>
+        <h1>Solo Traveler Platform</h1>
+    </header>
+
+    <!-- Search/Filter Section -->
+    <section id="search-filter">
+        <h2>Plan Your Solo Adventure</h2>
+        <form id="travel-form">
+            <label for="travel-group">Travel Group:</label>
+            <select id="travel-group" name="travel-group">
+                <option value="solo">Solo</option>
+                <option value="group">Group</option>
+            </select>
+
+            <label for="destination">Destination:</label>
+            <select id="destination" name="destination">
+                <option value="goa">Goa</option>
+                <option value="ladakh">Ladakh</option>
+                <option value="kerala">Kerala</option>
+                <option value="rajasthan">Rajasthan</option>
+                <!-- Add more destinations here -->
+            </select>
+
+            <label for="date">Travel Date:</label>
+            <input type="date" id="date" name="date">
+
+            <label for="budget">Budget:</label>
+            <input type="number" id="budget" name="budget" placeholder="INR">
+
+            <button type="submit">Search</button>
+        </form>
+    </section>
+
+    <!-- Popular Destinations Section -->
+    <section id="popular-destinations">
+        <h2>Popular Destinations</h2>
+        <div class="destination">
+            <img src="https://q-xx.bstatic.com/xdata/images/hotel/max1200/207321005.jpg?k=1edb37487105bfdb2e86e1cc39788982b80d3a523a5eace91e62f3f2c32ae469&o=" alt="Goa">
+            <h3>Goa</h3>
+            <p>Experience the beaches and vibrant nightlife of Goa.</p>
+        </div>
+        <div class="destination">
+            <img src="https://www.holidify.com/images/cmsuploads/compressed/Shanti_Stupa,_Leh,_Ladakh_20180305180249.jpg" alt="Ladakh">
+            <h3>Ladakh</h3>
+            <p>Explore the rugged beauty of the Himalayas in Ladakh.</p>
+        </div>
+        <div class="destination">
+            <img src="https://th.bing.com/th/id/OIP.vIodrOjovAcuAyFJDtKnZgHaEK?rs=1&pid=ImgDetMain" alt="Kerala">
+            <h3>Kerala</h3>
+            <p>Kerala, God's Own Country, where nature's beauty meets vibrant culture and traditions.</p>
+        </div>
+        <div class="destination">
+            <img src="https://www.tourmyindia.com/blog/wp-content/uploads/2020/11/Hawa-Mahal-Rajasthan-Feature.jpg" alt="Rajasthan">
+            <h3>Rajasthan</h3>
+            <p>Rajasthan, the Land of Kings, where majestic palaces and timeless deserts tell tales of grandeur.</p>
+        </div>
+        
+        <!-- Add more destinations here -->
+    </section>
+
+    <!-- Solo Traveler Stories Section -->
+    <section id="traveler-stories">
+        <h2>Solo Traveler Stories</h2>
+        <article>
+            <h3>Journey to the Himalayas</h3>
+            <p>A thrilling solo adventure in the mountains...</p>
+        </article>
+        <article>
+            <h3>Exploring the Backwaters of Kerala</h3>
+            <p>Discovering the serene beauty of Kerala's backwaters...</p>
+        </article>
+        <!-- Add more stories here -->
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Solo Traveler Platform | Contact Us: info@solotravel.com</p>
+        <p>Follow Us: 
+            <a href="#">Facebook</a> | 
+            <a href="#">Instagram</a> | 
+            <a href="#">Twitter</a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
